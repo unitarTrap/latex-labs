@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+
+\moderncvstyle{classic}
+
+\moderncvcolor{orange}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\footskip}{136.00005pt}
+
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math} 
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
+
+% document language
+\usepackage[english]{babel}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Renderer=Basic, Ligatures=TeX}
+\newfontfamily\cyrillicfonttt{CMU Typewriter Text}
+\newfontfamily\cyrillicfont{CMU Sans Serif}
+\setmainfont{CMU Sans Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguages{english}
+
+% personal data
+\name{Иван}{Петелин}
+\title{Мое CV}
+
+\born{14 Сентября 2004}
+\address{Россия}
+\phone[mobile]{+7~(931)~233~50~14}
+\email{vanek228.thebest@mail.ru}
+
+% Social icons
+\social[github]{unitarTrap}
+\social[telegram]{@unitarTrap}
+
+\photo[64pt][0.4pt]{picture}
+\quote{Квалификация}
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+
+
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Образование}
+\cventry{2011--2022}{Среднее общее}{ГБОУ СОШ №349}{Санкт-Петербург}{\textit{Окончено}}{Школа с углубленным английским}
+\cventry{2022--2024}{Высшее}{РГПУ им. Герцена}{Санкт-Петербург}{\textit{3 курс обучения}}{Институт Информационных Технологи}
+
+\section{Опыт}
+\subsection{Нет опыта}
+
+
+\section{Языки}
+\cvitemwithcomment{Русский}{C2}{}
+\cvitemwithcomment{Английский}{B1-B2}{}
+
+\section{Умения}
+\cvskillhead[-0.1em]
+
+\cvskillentry*{Language:}{1}{Python}{3}{Знаю синтаксис}
+\cvskillentry{}{2}{1С}{1}{Чучуть умею}
+\cvskillentry*{OS:}{3}{Windows}{13}{Могу переустановить}
+
+
+\section{Интересы}
+\cvitem{Дота 2}{2,5к часов 2300 птс}
+\cvitem{Гитара}{Поигрываю Мацураева иногда}
+\cvitem{Вархаммер 40к}{Ниды нравятся}
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
